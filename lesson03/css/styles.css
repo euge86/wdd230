@@ -4,15 +4,42 @@
 	box-sizing: border-box;
 }
 
+
 body {
 	font-size: 16px;
 	font-family: "Sansita", Ubuntu, sans-serif;
+	background-color: #CFCFCF;
+}
+
+main {
+	margin: 0 auto;
+	padding: 10px;
+}
+
+section {
+	background-color:#3BC14A ;
 }
 
 h1 {
 	font-size: 1.1rem;
-    padding: auto;
-    color: black;
+    color: #4D5057;
+	padding: 10px;
+	
+}
+
+h2 {
+	padding: 10px;
+
+}
+
+h3{
+	padding: 10px;
+}
+
+img{
+	max-width: 250px;
+	min-width: 100px;
+	padding: 10px;
 }
 
 

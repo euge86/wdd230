@@ -1,11 +1,21 @@
-function toggleMenu () {
+const options = {weekday: "long" , day: "numeric" , month: "long" , year: "numeric"};
+document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en-US" , options);
+
+
+const now = new Date();
+const fullDate = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
+const currentYear = now.getFullYear();
+
+document.querySelector(".currentdate").innerHTML = fullDate;
+
+
+function toggleMenu() {
     document.getElementById("navigation").classList.toggle("open");
     document.getElementById("hambutton").classList.toggle("open");
 }
 
-const x = document.getElementById("hambutton")
-x.onclick = toggleMenu;
+const x = document.getElementById("hamburtton");
+
+x.onclick = toggleMenu; 
 
 
-const options = {weekday: "long" , day: "numeric" , month: "long" , year: "numeric"};
-document.getElementById("currentdate").textContent = new Date().toLocaleDateString("en-US" , options);

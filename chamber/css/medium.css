@@ -15,4 +15,12 @@ nav ul li a {
     border-right: 1px solid rgba(0, 0, 0, 0.3);
 
 }
+
+header img {
+    width: 80%;
+}
+.headings h1 {
+    font-size: 1rem;
+    margin: 0;
+}
 }

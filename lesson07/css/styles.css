@@ -1,0 +1,25 @@
+* {
+    margin: 0 auto;
+}
+picture {
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    color: #F038FF;
+    text-align: center;
+    padding: 10px;
+}
+img {
+    border: 2px dashed #E2EF70;
+    padding: 1px;
+    width: 300px;
+    height: 400px;
+}
+
+body {
+    background-color: #16001E;
+}

@@ -205,10 +205,11 @@ footer {
     width: 50px;
 }
 
-.title{
+.title {
     font-size: 3rem;
     color:#4E6E5D;
     font-family: 'Koulen', cursive;
+    
 
 }
 .information {
@@ -250,6 +251,55 @@ a {
     float: right;
     font-size: 20px;
 }
+
+main {
+    min-width: 457px;
+    margin: 10px;
+    
+}
+h2 {
+    margin: 0;
+    background-color: #3BC14A;
+    color: #fefefe;
+    font-family: 'Koulen', cursive;
+    padding: 5px;
+}
+.population {
+    border: 1px solid #3BC14A;
+}
+.population p {
+    margin-left: 10px;
+}
+
+.location {
+    border: 1px solid #3BC14A;
+}
+
+.urban {
+    border: 1px solid #3BC14A;
+}
+.graph {
+    width: 100%;
+    margin-left: 0;
+}
+.img_gallery {
+    border: 1px solid #3BC14A;
+}
+.img_gallery h2 {
+    background-color: #3BC14A;
+    color: #fefefe;
+    padding: 5px;
+    margin: 0;
+}
+.img_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.img_content img {
+    margin: 10px;
+    width: 85%;
+}
+
 
 
 

@@ -320,7 +320,7 @@ fieldset {
 }
 legend {
     font-family: 'Koulen', cursive;
-    color: black;
+    color: #4DA167;
     font-size: 20px;
     font-weight: bold;
     padding: 0 .5rem;
@@ -328,8 +328,9 @@ legend {
 label.top {
     display: block;
     padding-top: .5rem;
-    color: #3BC14A;
-    font-size: .8rem;
+    color: black;
+    font-size: 1rem;
+    font-family: 'Koulen', cursive;
 }
 label.top input {
     -webkit-appearance: none;
@@ -352,6 +353,7 @@ label.chose {
     display: block;
     padding-top: .5rem;
     font-size: 1rem;
+    font-family: 'Oleo Script Swash Caps', cursive;
 }
 input.submitbtn {
     font-family: 'Koulen', cursive;

@@ -17,7 +17,12 @@
     display: block;
     text-decoration: none;
     padding: 1rem;
-   
+       
+   }
+   nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
    }
     
    nav ul.navigation {
@@ -30,6 +35,8 @@
     
     nav ul li {
     width: 50%;
+
+
     }
    .social {
        
@@ -42,6 +49,7 @@
    }
    
    .content {
+       width: 100%;
        margin: 20px;
        display: grid;
        grid-template-columns: 20% 60% 20%;
@@ -143,4 +151,44 @@ h1{
     text-align: center;
 }
 
+
+
+    
+@media only screen and (min-width: 750px){
+    
+    #join-form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .membership_container {
+        display: block;
+    }
+    .form_container {
+        grid-column: 1/2;
+        margin: 10px;
+    }
+    .membership_container {
+        grid-column: 2/3;
+        margin: 10px;
+        font-family: 'Oleo Script Swash Caps', cursive;
+    }
+    .member {
+    background-color: #3BC14A;
+    font-family: 'Koulen', cursive;
+    font-size: 45px;
+    color: #fefefe;
+    width: 100%;
+    padding: 3px 0 3px 0;
+    margin: 0 auto;
+    }
+
+    .npmember {
+        margin-top: 40px;
+    }
+    ul {
+        margin: 20px;
+        
+    }
+}
+    
 

@@ -19,3 +19,7 @@ function toggleMenu() {
 const x = document.getElementById("hambutton");
 
 x.onclick = toggleMenu;
+
+
+let dv= document.lastModified;
+document.querySelector("#.full-datev").value=dv;

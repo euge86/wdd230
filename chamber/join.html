@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    
+</head>
+<body>
+    <header>
+        <h1> The Green World Chamber of Commerce </h1>
+    <nav>
+     <picture class="logo">
+         <img src="images/one-green-worl-logo.png" alt="Green World">
+        </picture>
+        <div class="social">
+            <a class="face" href="htpps://facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+            <a class="linke" href="htpps://linkedin.com"><img src="images/linkedin.png" alt="Linkedin"></a>
+        </div>
+    <button class="hambutton" type="button"><span>&#9776;</span><span>X</span></button>    
+        <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                 <li><a href="discover.html">Discover</a></li>
+                 <li><a href="directory.html">Directory</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+        <p> <span id="currentDate"></span></p>
+       </nav>
+</header>
+<main id="join-form">
+        <div class="form_container">
+            <h1 class="form_title">Join us</h1>
+            <form method="get" action="thanks.html">
+                 <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label class="top">First Name*<input type="text" name="fname" required></label>
+                    <label class="top">Last Name*<input type="text" name="lname" required></label>
+                    <label class="top">Bussines Position Title<input type="text" minlength="7"></label>
+                    <label class="top">Email*<input type="email" name="email" placeholder="yourname@gmail.com" required></label>
+                    <label class="top">Phone*<input type="tel" minlength="7" name="phone" placeholder="1234567" required></label>
+                    <label class="top">Bussines Title*<input type="text" name="bussines" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Choose a Membership Level</legend> 
+                    <label class="chose"><input type="radio" name="membership">NP Membership</label>
+                    <label class="chose"><input type="radio" name="membership">Bronze Membership</label>
+                    <label class="chose"><input type="radio" name="membership">Silver Membership</label>
+                    <label class="chose"><input type="radio" name="membership">Gold Membership</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Bussines Description</legend>
+                    <textarea name="area" id="description" cols="1" rows="10"></textarea>
+                </fieldset>
+                <input type="hidden" id="full.datev" name="full-date" value="">
+                <input type="submit" value="Join Me" class="submitbtn">
+            </form>
+        </div>
+        <div class="membership_container">
+            <h1 class="member">Membership Details</h1>
+            <div class="npmember">
+                <h2>NP Membership</h2>
+                <ul>
+                    <li>NP Membership is for non profit organizations and there is no fee.</li>
+                    <li>Do you have access to our free services</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Bonze Membership</h2>
+                <ul>
+                    <li>With the bronze membership you are part of our group</li>
+                    <li>Do you have a 5% discount in all our companies members</li>
+                    <li>Price: AR$200 per month</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Silver Membership</h2>
+                <ul>
+                    <li>Do you have a 10% discount in all our companies members</li>
+                    <li>Support with our experts, 2 sesions per month to help to growth your bussines</li>
+                    <li>Price: AR$500 per month</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Gold Membership</h2>
+                <ul>
+                    <li>Do you have a 15% discount in all our companies members</li>
+                    <li>Support with a complete team to solve problems and archive goals</li>
+                    <li>Price: AR$1000  per month</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <img class="logofooter" src="images/one-green-worl-logo.png" alt="logofoot">
+
+        <div class="information">
+            <p class="title">One Green World</p>
+            <p class="addres">Alsina 2244 Luzuriaga Maipu Mendoza-Argentina</p>
+        </div>
+        <div class="contact-info">
+            <p class="page">✉ info@greenworld.com </p>
+            <p class="phone"> 📞261 - 4272654 </p>
+            <a class="direcction" href="https://goo.gl/maps/j7GPiJ46bBZhxpV4A">Location 📍</a>
+        </div>
+        <div class="footerdown">
+        <div id="year"></div><p>&copy; | 2022 | Eugenia Espejo | Mendoza-Argentina | </p>
+        <p> Last Update: <span id="lastUpdate"></span></p>
+        </div>
+        
+    </footer>
+    <script src="js/script.js"></script>
+   
+
+</body>
+</html>

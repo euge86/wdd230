@@ -1,6 +1,6 @@
-h1, h2{
+h2{
     font-family: 'Secular One', sans-serif;
-    color:#FECEE9;
+    
 }
 
 body {
@@ -18,6 +18,8 @@ header {
 header h1{
     color: #FECEE9;
     font-size: 60px;
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
 }
 main div.cards{
     display: grid;

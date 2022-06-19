@@ -1,4 +1,4 @@
-const requestURL = 'data.json';
+const requestURL = 'https://github.com/euge86/wdd230/blob/main/chamber/data.json';
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)

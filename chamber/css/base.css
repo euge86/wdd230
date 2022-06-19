@@ -391,6 +391,89 @@ input.submitbtn:hover {
 }
 
 
+.directory {
+    
+	background-color: #eee;
+}
+.directory-h1 {
+    background-color: #3BC14A;
+    color: #fefefe;
+    margin: 0;
+    padding: 5px;
+    font-family: 'Koulen', cursive;
+}
+.menu {
+	margin: 0 auto;
+	padding: 1rem;
+	text-align: center;
+}
+.menu button {
+	padding: 5px 30px;
+    border-radius: 5px;
+    border:solid;
+    background-color: #424B54;
+    color: #3BC14A;
+    font-family: 'Koulen', cursive;
+    font-size: 20px;
+}
+.menu button:hover {
+    background-color: #4D5057;
+    color: #fefefe;
+    transition: 0.20s;
+}
+section {
+	padding: 1rem;
+	background-color: #999;
+    border: 5px solid #3BC14A;
+    border-radius: 5px;
+    font-size: 10px;
+    
+    
+}
+.grid .cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Koulen', cursive;
+}
+.grid section {
+	flex-direction: column;
+	text-align: center;
+    margin: 0.75rem;
+    height: 250px;
+    padding: 25px;
+    font-family: 'Koulen', cursive;
+}
+img {
+	height: 35px;
+	max-width: 100%;
+}
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	align-items: center;
+    margin: 15px;
+    flex-direction: row;
+    justify-content: center;
+}
+.grid section > * {
+	margin: 0 auto;
+    font-family: 'Koulen', cursive;
+} 
+.list section > * {
+	
+	text-align: center;
+    font-family: 'Koulen', cursive;;
+}
+.list img {
+    display: none;
+}
+
 
 
 

@@ -1,0 +1,85 @@
+{
+    "companies":[
+    {
+    "Company":"Divina Naturaleza",
+    "Address":"Angel Rodriguez 985 Guaymallen",
+    "Phone":"+54261-699-9814",
+    "Website":"https://www.facebook.com/finca.dina/",
+    "imageurl":"https://www.facebook.com/finca.dina/photos/a.1728320634140653/2054024818236898/",
+    "Membership":"Silver Membership"
+
+    },
+    {
+    "Company":"Biogreen",
+    "Address":"Avenida San Martin 2480 Ciudad Mendoza",
+    "Phone":"08000 122 5552",
+    "Website":"https://biogreen.com.ar/",
+    "imageurl":"https://ar.pinterest.com/biogreenpergaminozona/",
+    "Membership":"Silver Membership"
+    
+    },
+    {
+    "Company":"NotCo",
+    "Address":"Rondeu 5521 Guaymallen",
+    "Phone":"+54261-822-65478",
+    "Website":"https://notco.com/ar/",
+    "imageurl":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/NotCo_logo.svg/267px-NotCo_logo.svg.png",
+    "Membership":"Golden Membership"
+        
+    },
+    {
+    "Company":"Dra. Valeria Rossi",
+    "Address":"Av Champagnat esq. Dr. Leloir Frente a Dalvian",
+    "Phone":"0261 459-6800",
+    "Website":"https://beacons.ai/dra.valeria.rossi",
+    "imageurl":"https://scontent.fmdz2-1.fna.fbcdn.net/v/t39.30808-6/286585280_550218223476871_5124378272862906686_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_eui2=AeFtO3WklVeqR-lhGQfZKjUlvoj0gAID_OS-iPSAAgP85CJDoq6lyB22_zUYpv1lFQw&_nc_ohc=eQUUJnlwOP0AX9tQJgQ&tn=KMGDtH5ReH90J_mw&_nc_ht=scontent.fmdz2-1.fna&oh=00_AT9TErwAUHwI0PxZ1MkrIcFREmeqVvPpfX1pq1AfrBoCMw&oe=62B3D72C",
+    "Membership":"Bronze Membership"       
+    },
+    {
+    "Company":"Natura Siberica",
+    "Address":"Julio Argentino Roca 1520 Godoy Cruz",
+    "Phone":"0261 427-2654",
+    "Website":"https://biomille.com.ar/collections/natura-siberica",
+    "imageurl":"https://cdn.shopify.com/s/files/1/0271/9730/9010/files/natura-siberica-biomille.jpg?v=1590814350",
+    "Membership":"Golden Membership"
+                
+    },
+    {
+    "Company":"Natura",
+    "Address":"Gutierrez 2050 Luzuriaga Maipu",
+    "Phone":"",
+    "Website":"https://www.naturacosmeticos.com.ar/",
+    "imageurl":"https://www.freepng.es/png-r3gxxe/",
+    "Membership":"Silver Membership"
+                    
+    },
+    {
+    "Company":"Love Nutricion",
+    "Address":"Nwecochea 520 Ciudad Mendoza",
+    "Phone":"261 420 42578",
+    "Website":"https://www.instagram.com/lovenutricion/",
+    "imageurl":"https://www.facebook.com/lovenutricionn/photos/a.528946957264918/563717287121218/",
+    "Membership":"Bronze Membership"
+                        
+    },
+    {
+    "Company":"Baharat Almacen Natural",
+    "Address":"Paso de los Andes 1628 Godoy Cruz",
+    "Phone":"261 242 1997",
+    "Website":"https://www.facebook.com/baharatalmacenatural",
+    "imageurl":"https://www.facebook.com/baharatalmacenatural/photos/a.1611093029137780/2446273485619726",
+    "Membership":"Bronze Membership"
+                            
+    },
+    {
+    "Company":"UP! Fitness y Danza",
+    "Address":"Remedios de Escalada 3511 Godoy Cruz",
+    "Phone":"261 538 6198",
+    "Website":"http://upfitnessdanza.com.ar/",
+    "imageurl":"https://www.facebook.com/upfitnessdanza/photos/a.167639376936080/541931786173502/",
+    "Membership":"Golden Membership"
+                                
+    }
+
+    ]
+}

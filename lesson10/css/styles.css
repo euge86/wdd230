@@ -1,0 +1,29 @@
+body{
+
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(246, 102, 13);
+    font-family: 'Questrial', sans-serif;
+    
+}
+h1, h2{
+    color: rgb(27, 24, 14);
+    font-family: 'Indie Flower', cursive;
+}
+
+p {
+    color:bisque;
+    background-color: blue;
+    font-family: 'Questrial', sans-serif;
+    
+}
+
+footer{
+    padding-top: 300px;
+    font-size: larger;
+}
+
+
+
+

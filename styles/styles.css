@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ACACDE;
+}
+
+.contanier{
+    width: 70%;
+    margin: 20px auto;
+}
+
+header {
+    background-color: #B8336A;
+    border-radius: 15px;
+    width: 100%;
+    box-shadow: 5px 5px 5px black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+header img {
+    width: 200px;
+    height: 300px;
+    margin: 20px 0 10px 60px;
+    border-radius: 30px;
+    box-shadow: 6px 6px 6px black;
+}
+
+header h1 {
+    text-align: left;
+    font-size: 4rem;
+    
+}
+
+main{
+
+    margin: 20px 0 20px 50px;
+    border-bottom: 1px solid black ;
+    padding-bottom: 15px;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+h2{
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    
+
+}
+
+ul {
+    margin-left: 30px;
+    font-size: 1.5rem;
+}
+
+
+footer{
+    background-color: #B8336A;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.75rem;
+    
+}
+
+.highlight{
+    color: white;
+}

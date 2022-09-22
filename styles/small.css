@@ -16,7 +16,7 @@ body {
 
 header {
     background-color: #B8336A;
-    border-radius: 15px;
+    border-radius: 10px;
     width: 100%;
     box-shadow: 5px 5px 5px black;
     display: grid;
@@ -27,16 +27,14 @@ header {
 }
 
 header img {
-    width: 200px;
-    height: 300px;
-    margin: 20px 0 10px 60px;
-    border-radius: 30px;
-    box-shadow: 6px 6px 6px black;
+    width: 100px;
+    margin: 10px 0 5px 30px;
+
 }
 
 header h1 {
     text-align: left;
-    font-size: 4rem;
+    font-size: 2rem;
     
 }
 
@@ -54,7 +52,7 @@ h2{
     margin-bottom: 10px;
     padding-bottom: 15px;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2rem;
+    font-size: 1rem;
     
 
 }
@@ -68,11 +66,11 @@ ul {
 footer{
     background-color: #B8336A;
     box-shadow: 5px 5px 5px black;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 20px;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.75rem;
+    font-size: 1rem;
     
 }
 

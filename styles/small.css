@@ -19,22 +19,23 @@ header {
     border-radius: 10px;
     width: 100%;
     box-shadow: 5px 5px 5px black;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     align-items: center;
     font-family: 'Josefin Sans', sans-serif;
-    
-}
+    display: block;
 
+}
+    
 header img {
     width: 100px;
-    margin: 10px 0 5px 30px;
+    height: auto;
+    margin: 10px 0 5px 70px;
 
 }
 
 header h1 {
-    text-align: left;
+    text-align: center;
     font-size: 2rem;
+    padding: auto 50px;
     
 }
 
@@ -77,3 +78,4 @@ footer{
 .highlight{
     color: white;
 }
+

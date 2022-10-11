@@ -21,6 +21,10 @@
         justify-content: center;
     }
 
+    nav ul li {
+        flex: 1 1 auto;
+    }
+
     nav ul li a {
         border-top: none;
     

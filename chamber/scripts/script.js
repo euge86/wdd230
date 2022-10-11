@@ -1,4 +1,4 @@
-//curent day //
+//Current day //
 
 const options = {weekday: "long" , day: "numeric" , month: "long" , year: "numeric"};
 document.getElementById("currentDate").textContent = new Date().toLocaleDateString("en-US" , options);
@@ -11,7 +11,7 @@ const currentYear = now.getFullYear();
 document.querySelector("#currentDate").innerHTML = fullDate;
 
 
-//actual date//
+//Actual date//
 const date1 = document.querySelector("#actualdate");
 try {
 	const options = {
@@ -26,3 +26,16 @@ try {
 }
 let actualyear = document.querySelector("#actualyear");
 actualyear.innerHTML = `&copy 2022 | Eugenia Espejo | Mendoza Argentina`;
+
+//Hamburger button//
+
+
+function toggleMenu() {
+	document.getElementById("navigation").classList.toggle("open");
+	document.getElementById("hamburgerBtn").classList.toggle("open");
+}
+
+const x = document.getElementById('hamburgerBtn')
+x.onclick = toggleMenu;
+
+

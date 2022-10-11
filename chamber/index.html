@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital@1&display=swap" rel="stylesheet">
     <title>Chamber of Commerce</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -13,29 +15,30 @@
 <body>
     <header>
     
-    <img class ="logo" src="images/gc-logo.png" alt="Godoy Cruz Logo" width="300px" height="auto">
+    <img class ="logo" src="images/gc-logo.png" alt="Godoy Cruz Logo">
     
     <h1>Godoy Cruz <span>Chamber of Commerce</span></h1>
      
-    <section class="social">
-            <a class="face" href="htpps://facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
-            <a class="linke" href="htpps://linkedin.com"><img src="images/linkedin.png" alt="Linkedin"></a>
-    </section>
+    <div class="social">
+            <a href="htpps://facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="htpps://linkedin.com"><img src="images/linkedin.png" alt="Linkedin"></a>
+    </div>
   
     <nav> 
-        <ul class="navigation">
-            <li class="menu"><a href="#" class="link">Home</a></li>
-            <li class="menu"><a href="#" class="link">Discover</a></li>
-            <li class="menu"><a href="#" class="link">Directory</a></li>
-            <li class="menu"><a href="#" class="link">Join</a></li>
-            <li class="menu"><a href="#" class="link">Contact</a></li>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="navigation">
+            <li class="active"><a href="#" class="link">Home</a></li>
+            <li><a href="#" class="link">Discover</a></li>
+            <li><a href="#" class="link">Directory</a></li>
+            <li><a href="#" class="link">Join</a></li>
+            <li><a href="#" class="link">Contact</a></li>
         </ul>
      </nav>
-     <p><span id="currentDate"></span></p>
-    </header>
+     </header>
+     <p><strong><span id="currentDate"></span></strong></p>
 <main>
-    <section class="content">
-        <div class="hero"></div>
+    <div class="content">
+        <div class="hero">Hero and call to action</div>
         <div class="news">News Release</div>
         <div class="event">Event</div>
         <div class="weather">Weather</div>
@@ -45,19 +48,19 @@
             <div class="spot2">Spotlight 2</div>
             <div class="spot3">Spotlight 3</div>
         </div>
-    </section>
+    </div>
     </main>
     <footer>
-        <img class="logofooter" src="images/gc-logo.png"  alt="logofoot" width="100px" height="auto">
+        <img class="logofooter" src="images/gc-logo.png"  alt="logofoot">
 
-        <div class="information">
-            <p class="footertitle">Godoy Cruz </p>
-            <p class="addres">Rivadavia 4521 Godoy Cruz Mendoza-Argentina</p>
+        <div class="info">
+            <p class="footertitle">Godoy Cruz Chamber of Commerce</p>
+            <p class="address">Rivadavia 4521 Godoy Cruz Mendoza-Argentina</p>
         </div>
-        <div class="contact-info">
+        <div class="contact">
             <p class="page">✉ info@godoycruz.com </p>
             <p class="phone"> 📞261 - 4272654 </p>
-            <a class="direcction">Location 📍</a>
+            <p class="direction">Location 📍</p>
         </div>
         <div class="footerdown">
             <p id="actualyear"></p>

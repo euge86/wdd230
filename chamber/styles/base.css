@@ -1,0 +1,200 @@
+*{
+    margin: 0 auto ;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #001242;
+    color: white;
+    width: 100%;
+    display: flex;
+    
+}
+
+.logo {
+    width: auto;
+    height: 30px;
+    background-color: white;
+    margin: 32px 5px 10px 10px;
+    display: flex;
+}
+
+.social img{
+    width: 20px;
+    height: auto;
+    padding: 5px;
+    background-color: white;
+    margin: 10px 3px 3px 0;
+}
+
+header h1 {
+    display: block;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    padding: 15px 5px 0 0;
+}
+nav button{
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    padding-top: 20px;
+}
+nav {
+    background-color: #005E7C;
+    font-size: 1.5rem;
+    border: solid 1px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-right: 20px;
+}
+nav ul.open {
+    display: block;
+}
+
+nav ul li {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+nav ul li a {
+    display: block;
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
+    border-top: 1px solid white;
+}
+nav ul li a:link, nav ul li a:visited {
+    color: white;
+    display: block;
+    
+}
+nav ul li a:hover {
+    background-color: #001242;
+}
+nav ul li.active a {
+    background-color: #001242;
+}
+
+nav ul {display:none;}
+nav ul.open {display:block;}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+#currentDate {
+    padding: 10px 0;
+    width: 100%;
+    background-color: #0094C6;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Gentium Book Basic', serif;
+    
+}
+
+
+main {
+    margin-top: 10px;
+    color:white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.5rem;
+   
+    
+}
+
+.hero {
+    border:3px solid #000022;
+    margin-bottom:5px;
+    padding-bottom: 100px;
+    background-color: #005E7C;
+}
+.news {
+    border:3px solid #000022;
+    margin-bottom:5px;
+    padding-bottom: 100px;
+    background-color: #005E7C;
+}
+
+.event {
+    border:3px solid #000022;
+    margin-bottom:5px;
+    padding-bottom: 100px;
+    background-color: #005E7C;
+}
+.weather {
+    border:3px solid #000022;
+    margin-bottom:5px;
+    padding-bottom: 100px;
+    background-color: #005E7C;
+}
+.join {
+    border: 3px solid #000022;
+    margin-bottom:5px;
+    padding-bottom: 100px;
+    background-color: #005E7C;
+}
+.spotlight {
+    border:3px solid #000022;
+    margin:5px;
+    padding-bottom: 90px;
+    background-color: #005E7C;
+  
+}
+.spot1 {
+    border: 2px double #000022;
+    margin: 10px;
+    padding: 100px;
+    background-color: #0094C6;
+}
+
+.spot2 {
+    border: 2px double #000022;
+    margin: 10px;
+    padding: 100px;
+    background-color: #0094C6;
+}
+
+.spot3 {
+    display: none;
+}
+
+footer {
+    background-color: #001242;
+    color: white;
+    border: 2px solid #0094C6;
+    padding: 10px 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.logofooter {
+    width: auto; 
+    height: 30px;
+    background-color: white;
+    margin: 10px 5px 10px 10px;
+}
+
+footer p {
+    text-align: center;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 1rem;
+
+}
+.footerdown {
+    border-top: 2px solid #0094C6;
+    margin: 10px;
+}

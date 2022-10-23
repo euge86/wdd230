@@ -28,6 +28,7 @@ try {
 }
 
 let banner = document.querySelector("#banner");
+
 if (dayName == "Monday" || dayName == "Tuesday"){
 banner.innerHTML = `${new Date().toLocaleDateString("en-UK", options)}`;
     banner.classList.toggle("dayDisplay");

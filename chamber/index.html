@@ -17,7 +17,7 @@
     <section id="banner"></section>
     <header>
     
-    <img class ="logo" src="images/gc-logo.png" alt="Godoy Cruz Logo">
+    <img class ="logo" src="images/gc-logo.webp" alt="Godoy Cruz Logo">
     
     <h1>Godoy Cruz <span>Chamber of Commerce</span></h1>
      
@@ -41,7 +41,15 @@
      
 <main>
     <div class="content">
-        <div class="hero">Hero and call to action</div>
+        <div class="hero">
+            <picture>
+                
+                <source srcset="images/wdd230-medium.jpg" media="(max-width:200px)" >
+                <source media ="(max-width:500px)" srcset= "images/wdd230-medium.jpg">
+                <source media="(max-width: 800px)" srcset="images/wdd230-large-org">
+                <img class="hero-image" src="images/wdd230-org.jpg" alt="Hero Image">
+            </picture>
+        </div>
         <div class="news">News Release</div>
         <div class="event">Event</div>
         <div class="weather">Weather</div>
@@ -54,7 +62,7 @@
     </div>
     </main>
     <footer>
-        <img class="logofooter" src="images/gc-logo.png"  alt="logofoot">
+        <img class="logofooter" src="images/gc-logo.webp"  alt="logofoot">
 
         <div class="info">
             <p class="footertitle">Godoy Cruz Chamber of Commerce</p>

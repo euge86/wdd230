@@ -1,0 +1,26 @@
+* {
+    margin: 0 auto;
+}
+body {
+    background-color:  #F5EE9E;
+}
+picture {
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    color: #E83151;
+    text-align: center;
+    padding: 10px;
+}
+img {
+    border: 2px solid #E83151;
+    padding: 1px;
+    width: 300px;
+    height: 400px;
+}
+
+

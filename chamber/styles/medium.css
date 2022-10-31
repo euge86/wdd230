@@ -138,11 +138,7 @@ h2{
     border-radius: 150px 150px;
     transition: 0.25s;
 } 
-
 .text1 {
-    color:white;
-}
-.card {
     background-color: #0094C6;
     color: white;
     max-width: 100%;

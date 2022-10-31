@@ -15,3 +15,6 @@ close.addEventListener("click", () => {
 
 	banner.style.display = "none";
 });
+
+
+

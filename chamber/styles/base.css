@@ -304,8 +304,8 @@ h2 {
     grid-template-columns: 1fr 1fr;
 }
 .img_content img {
-    margin: 10px;
-    width: 85%;
+    margin: 10px 20px;
+    width: 100%;
 }
 
 

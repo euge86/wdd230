@@ -10,30 +10,6 @@ const currentYear = now.getFullYear();
 
 document.querySelector("#currentDate").innerHTML = fullDate;
 
-//Banner Meeting//
-
-
-const box = document.querySelector("#banner");
-try {
-	const options = {
-		weekday: "long",
-		day: "numeric",
-		month: "long",
-		year: "numeric"
-		
-	};
-	box.innerHTML =  `🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.`;
-} catch (e) {
-	alert("print");
-}
-
-let banner = document.querySelector("#banner");
-
-if (dayName == "Monday" || dayName == "Tuesday"){
-banner.innerHTML = `${new Date().toLocaleDateString("en-UK", options)}`;
-    banner.classList.toggle("dayDisplay");
-}
-
 
 
 

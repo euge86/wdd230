@@ -14,7 +14,7 @@
     
 </head>
 <body>
-    <section id="banner"></section>
+    <div id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.<button id="close">❌</button></div>
     <header>
     
     <img class ="logo" src="images/gc-logo.webp" alt="Godoy Cruz Logo">
@@ -44,15 +44,21 @@
         <div class="hero">
             <picture>
                 
-                <source media="(max-width: 200px)" srcset="images/wdd230-small.jpg" >
-                <source media ="(max-width: 500px)" srcset="images/wdd230-medium.jpg">
-                <source media="(max-width: 800px)" srcset="images/wdd230-large.jpg">
-                <img class="hero-image" src="images/wdd230-large.jpg" alt="Hero Image">
+                <source media="(max-width: 450px)" srcset="images/wdd230-450.jpg" >
+                <source media ="(max-width: 850px)" srcset="images/wdd230-850.jpg">
+                <source media="(max-width: 1300px)" srcset="images/wdd230-1300.jpg">
+                <img class="hero-image" src="images/wdd230-1300.jpg" alt="Hero Image">
             </picture>
         </div>
         <div class="news">News Release</div>
         <div class="event">Event</div>
-        <div class="weather">Weather</div>
+        <div class="weather">
+            <h1>Weather</h1>
+            <img src="images/weather-icon.png" alt="weather icon">
+            <p>Currently: <span id="t">30</span>&#176;F</p>
+            <p>Wind Speed: <span id="s">10</span> mph</p>
+            <p>WindChill: <span id="w"></span></p>
+        </div>
         <div class="join">Join</div>
         <div class="spotlight">
             <div class="spot1">Spotlight 1</div>
@@ -80,6 +86,8 @@
         
     </footer>
     <script src="scripts/script.js"></script>
+    <script src="scripts/js.js"></script>
+    <script src="scripts/windchill.js"></script>
    
 
 </body>

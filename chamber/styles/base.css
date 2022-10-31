@@ -9,12 +9,18 @@ body {
 }
 
 #banner{
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-
+    display: none;
+	margin: 0 auto;
+	border: 1px solid #bbb;
+	background-color:black;
+    color: #bbb;
+	padding: 1rem;
+	text-align: center;
+	width: 100%;
+    font-size: 1.5rem;
+    font-family: 'Gentium Book Basic', serif;
 }
+
 
 header {
     background-color: #001242;
@@ -130,6 +136,11 @@ main {
     padding-bottom: 100px;
     background-color: #005E7C;
 }
+
+.hero img {
+    width: 100%;
+    object-fit: contain;
+}
 .news {
     border:3px solid #000022;
     margin-bottom:5px;
@@ -144,10 +155,25 @@ main {
     background-color: #005E7C;
 }
 .weather {
-    border:3px solid #000022;
+    border: 3px solid #000022;
     margin-bottom:5px;
     padding-bottom: 100px;
+
     background-color: #005E7C;
+}
+
+.weather h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Manrope', sans-serif;
+}
+.weather img {
+    width: 40%;
+    padding: 0 100px;
+}
+.weather p {
+    text-align: center;
+    font-size: 1.5rem;
 }
 .join {
     border: 3px solid #000022;
@@ -206,3 +232,80 @@ footer p {
     border-top: 2px solid #0094C6;
     margin: 10px;
 }
+
+/***discover page***/
+
+
+h2 {
+    margin: 0;
+    background-color:#001242;
+    color: #fefefe;
+    font-family: 'Manrope', sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+.population {
+    border: 1px solid #0094C6;
+}
+.population p {
+    margin-left: 10px;
+}
+
+.location {
+    border: 1px solid #0094C6;
+}
+
+.text  {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Gentium Book Basic', serif;
+
+}
+
+.location img {
+    width:50%;
+    object-fit: fill;
+    align-items: center;
+    padding: 80px;
+    border: solid 2px #0094C6;
+    margin: 10px 20px;
+}
+
+.urban {
+    border: 1px solid #0094C6;
+}
+
+.urban img {
+    width:50%;
+    object-fit: fill;
+    align-items: center;
+    padding: 80px;
+    border: solid 2px #0094C6;
+    margin: 10px 20px;
+}
+.card {
+    background-color: #0094C6;
+    text-align: center;
+    font-size: 1rem;
+    border: solid 2px #001242;
+}
+.img_gallery {
+    border: 1px solid #0094C6;
+}
+.img_gallery h2 {
+    background-color: #001242;
+    color: #fefefe;
+    padding: 5px;
+    margin: 0;
+}
+.img_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.img_content img {
+    margin: 10px;
+    width: 85%;
+}
+
+

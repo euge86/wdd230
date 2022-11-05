@@ -149,7 +149,7 @@
        display: flex;
    }
         
-/*discovery page */
+/*** discovery page ***/
 
 .content_discover {
     grid-template-columns: 70% 30%;
@@ -162,8 +162,53 @@ h1{
     text-align: center;
 }
 
+/*** join page ***/
+#join-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+label.top input{
+    width: 100%;
+    max-width: 85%;
+    padding: 20px;
+}
+.membership_container {
+    display: block;
+}
+.form_container {
+    grid-column: 1/2;
+    margin: 10px;
+}
+.membership_container {
+    grid-column: 2/3;
+    margin: 10px;
+    font-family: 'Gentium Book Basic', serif;
+}
+.member {
+background-color: #001242;
+font-family: 'Manrope', sans-serif;
+font-size: 20px;
+color: #fefefe;
+width: 100%;
+padding: 5px;
+margin: 0 auto;
+}
 
+.npmember  {
+    margin-top: 40px;
+    color: white;
+}
 
-
+.ship {
+    background-color:#0094C6;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+.text {
+    margin: 20px;
+    color: black;
+    font-size: 1rem;
+    text-align:justify;
+}
 
 }

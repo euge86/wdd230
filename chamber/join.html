@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicongodoycruz.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital@1&display=swap" rel="stylesheet">
+    <title>Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    
+</head>
+<body>
+    
+    <header>
+    
+    <img class ="logo" src="images/gc-logo.webp" alt="Godoy Cruz Logo">
+    
+    <h1>Godoy Cruz <span>Chamber of Commerce</span></h1>
+     
+    <div class="social">
+            <a href="htpps://facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="htpps://linkedin.com"><img src="images/linkedin.png" alt="Linkedin"></a>
+    </div>
+  
+    <nav> 
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="navigation">
+            <li><a href="#" class="link">Home</a></li>
+            <li><a href="discover.html" class="link">Discover</a></li>
+            <li class="active"><a href="join.html" class="link">Join</a></li>
+            <li><a href="#" class="link">Directory</a></li>
+            <li><a href="#" class="link">Contact</a></li>
+        </ul>
+     </nav>
+     </header>
+     <p><strong><span id="currentDate"></span></strong></p>
+     
+<main id="join-form">
+    <div class="form_container">
+        <h1 class="form_title">Join us</h1>
+        <form method="get" action="thanks.html">
+             <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="top">First Name*<input type="text" name="fname" required="required"></label>
+                <label class="top">Last Name*<input type="text" name="lname" required></label>
+                <label class="top">Bussines Position Title<input type="text" minlength="7"></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="yourname@gmail.com" required="required"></label>
+                <label class="top">Phone*<input type="tel" minlength="7" name="phone" placeholder="1234567" required="required"></label>
+                <label class="top">Bussines Title*<input type="text" name="bussines" required="required"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Choose a Membership Level</legend> 
+                <label class="chose"><input type="radio" name="membership">NP Membership</label>
+                <label class="chose"><input type="radio" name="membership">Bronze Membership</label>
+                <label class="chose"><input type="radio" name="membership">Silver Membership</label>
+                <label class="chose"><input type="radio" name="membership">Gold Membership</label>
+            </fieldset>
+            <fieldset>
+                <legend>Bussines Description</legend>
+                <textarea name="area" id="description" cols="1" rows="10"></textarea>
+            </fieldset>
+            <input type="hidden" id="full.datev" name="full-date" value="">
+            <input type="submit" value="Join Me" class="submitbtn">
+        </form>
+    </div>
+    <div class="membership_container">
+        <h1 class="member">Membership Details</h1>
+        <div class="npmember">
+            <h2 class="ship">NP Membership</h2>
+            <ul>
+                <li class="text">NP Membership is for non profit organizations and there is no fee.</li>
+                <li class="text">Do you have access to our free services</li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="ship">Bronze Membership</h2>
+            <ul>
+                <li class="text">With the bronze membership you are part of our group</li>
+                <li class="text">Do you have a 5% discount in all our companies members</li>
+                <li class="text">Price: AR$200 per month</li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="ship">Silver Membership</h2>
+            <ul>
+                <li class="text">Do you have a 10% discount in all our companies members</li>
+                <li class="text">Support with our experts, 2 sesions per month to help to growth your bussines</li>
+                <li class="text">Price: AR$500 per month</li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="ship">Gold Membership</h2>
+            <ul>
+                <li class="text">Do you have a 15% discount in all our companies members</li>
+                <li class="text">Support with a complete team to solve problems and archive goals</li>
+                <li class="text">Price: AR$1000  per month</li>
+            </ul>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <img class="logofooter" src="images/gc-logo.webp"  alt="logofoot">
+
+        <div class="info">
+            <p class="footertitle">Godoy Cruz Chamber of Commerce</p>
+            <p class="address">Rivadavia 4521 Godoy Cruz Mendoza-Argentina</p>
+        </div>
+        <div class="contact">
+            <p class="page">✉ info@godoycruz.com </p>
+            <p class="phone"> 📞261 - 4272654 </p>
+            <p class="direction">Location 📍</p>
+        </div>
+        <div class="footerdown">
+            <p id="actualyear"></p>
+            <p class="date"><span id="actualdate"></span></p>
+        </div>
+        
+    </footer>
+    <script src="scripts/script.js"></script>
+    
+   
+
+</body>
+</html>

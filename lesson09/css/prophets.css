@@ -1,0 +1,58 @@
+body {
+    background-color: #011C27;
+}
+
+h2{
+    font-family: 'Secular One', sans-serif;
+    
+}
+
+p {
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+header h1{
+    color: #FECEE9;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+}
+main div.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1rem;
+}
+main div.cards section{
+    display: flex;
+    flex-direction: column;
+    background-color: #03254E;
+    color: white;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    border: solid black;
+    box-shadow: 10px 10px 10px #545677;
+
+}
+main div.cards section h2{
+    color: white;
+}
+div.cards section h2, div.cards section p{
+    margin: 0.4rem;
+} 
+img{
+    width: 100%;
+    box-shadow: 0px 0px 10px #545677;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color:#FECEE9;
+    font-size: 25px;
+    font-family: 'Patrick Hand', cursive;
+}

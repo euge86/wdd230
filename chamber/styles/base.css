@@ -397,6 +397,104 @@ input.submitbtn:hover {
     color:#001242;
 }
 
+/*** directory page ***/
+
+.directory {
+    
+	background-color: #eee;
+}
+.directory-h1 {
+    background-color: #001242;
+    color: #fefefe;
+    margin: 0;
+    padding: 5px;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+}
+.menu {
+	margin: 0 auto;
+	padding: 1rem;
+	text-align: center;
+}
+.menu button  {
+	padding: 5px 30px;
+    border-radius: 5px;
+    border:solid;
+    background-color: #7DCFB6;
+    color:#001242;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+}
+.menu button:hover {
+    background-color: #1D4E89;
+    color: white;
+    border: solid white;
+    transition: 0.20s;
+}
+section {
+	padding: 1rem;
+    border: 5px solid #0094C6;
+    border-radius: 5px;
+    font-size: 1rem;
+    color:#001242;
+}
+
+h3{
+    font-family: 'Manrope', sans-serif;
+    color:#0094C6;
+    font-size: 1.5rem;
+
+}
+
+.grid .cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Gentium Book Basic', serif;
+}
+.grid section {
+	flex-direction: column;
+	text-align: center;
+    margin: 0.75rem;
+    height: 250px;
+    padding: 25px;
+    font-family: 'Gentium Book Basic', serif;
+}
+img {
+	
+	width: 40%;
+    height: auto;
+}
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	align-items: center;
+    margin: 15px;
+    flex-direction: row;
+    justify-content: center;
+}
+.grid section > * {
+	margin: 0 auto;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 1.2rem;
+} 
+.list section > * {
+	
+	text-align: center;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 1.2rem;
+}
+.list img {
+    display: none;
+}
+
+
+
 
 
 

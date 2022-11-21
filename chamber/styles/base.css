@@ -133,7 +133,7 @@ main {
 .hero {
     border:3px solid #000022;
     margin-bottom:5px;
-    padding-bottom: 100px;
+    padding-bottom: 90px;
     background-color: #005E7C;
 }
 
@@ -154,27 +154,23 @@ main {
     padding-bottom: 100px;
     background-color: #005E7C;
 }
-.weather {
+.weather-box {
     border: 3px solid #000022;
     margin-bottom:5px;
-    padding-bottom: 100px;
-
     background-color: #005E7C;
+    text-align: center;
 }
 
-.weather h1 {
-    text-align: center;
-    font-size: 2rem;
+.weather-box h1 {
+    font-size: 1.5rem;
     font-family: 'Manrope', sans-serif;
 }
-.weather img {
-    width: 40%;
-    padding: 0 100px;
+
+.weather-box img {
+    width: 60%;
+    
 }
-.weather p {
-    text-align: center;
-    font-size: 1.5rem;
-}
+
 .join {
     border: 3px solid #000022;
     margin-bottom:5px;
@@ -231,6 +227,13 @@ footer p {
 .footerdown {
     border-top: 2px solid #0094C6;
     margin: 10px;
+}
+
+.source {
+    background-color: #0094C6;
+    color: black;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.2rem;
 }
 
 /***discover page***/
@@ -400,9 +403,14 @@ input.submitbtn:hover {
 /*** directory page ***/
 
 .directory {
-    
-	background-color: #eee;
-}
+    max-width: 100%;
+    padding: 15px;
+    align-self: center;
+    background-color: #eee;
+    display: flex;
+  flex-direction: column;
+  }
+
 .directory-h1 {
     background-color: #001242;
     color: #fefefe;
@@ -446,37 +454,34 @@ h3{
 
 }
 
-.grid .cards {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+.cards {
+	
 	align-items: center;
-    max-width: 1000px;
+    max-width: 100%;
     margin: 0 auto;
     font-family: 'Gentium Book Basic', serif;
 }
+
+
 .grid section {
-	flex-direction: column;
-	text-align: center;
+	
     margin: 0.75rem;
     height: 250px;
     padding: 25px;
     font-family: 'Gentium Book Basic', serif;
 }
-img {
+img  {
 	
-	width: 40%;
+	width: 30%;
     height: auto;
-}
-.list {
-	display: flex;
-	flex-direction: column;
 }
 
 .list section {
 	align-items: center;
-    margin: 15px;
-    flex-direction: row;
+    max-width: 100%;
     justify-content: center;
+    display: flex;
+	flex-direction: column;
 }
 .grid section > * {
 	margin: 0 auto;

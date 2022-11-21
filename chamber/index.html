@@ -47,17 +47,20 @@
                 <source media="(max-width: 450px)" srcset="images/wdd230-450.jpg" >
                 <source media ="(max-width: 850px)" srcset="images/wdd230-850.jpg">
                 <source media="(max-width: 1300px)" srcset="images/wdd230-1300.jpg">
-                <img class="hero-image" src="images/wdd230-1300.jpg" alt="Hero Image">
+                <img class="hero-image" src="images/wdd230-850.jpg" alt="Hero Image">
             </picture>
         </div>
         <div class="news">News Release</div>
         <div class="event">Event</div>
-        <div class="weather">
+        <div class="weather-box">
             <h1>Weather</h1>
-            <img src="images/weather-icon.png" alt="weather icon">
-            <p>Currently: <span id="t">30</span>&#176;F</p>
-            <p>Wind Speed: <span id="s">10</span> mph</p>
-            <p>WindChill: <span id="w"></span></p>
+            <img src="#" alt="" id="weather-icon">
+            <p class="actual-temperature"><span id="current-temperature"></span>F°</p>
+            <b id="fig-caption"></b>
+            <div>
+                <p>Wind Speed: <span class="windVelocity"></span>mph</p>
+                <p>Wind Chill: <span class="windChill"></span></p>
+            </div>
         </div>
         <div class="join">Join</div>
         <div class="spotlight">
@@ -82,6 +85,7 @@
         <div class="footerdown">
             <p id="actualyear"></p>
             <p class="date"><span id="actualdate"></span></p>
+            <p class="source">Source: <a href="https://openweathermap.org/api">Open Weather API</a></p>
         </div>
         
     </footer>

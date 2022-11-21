@@ -59,14 +59,15 @@
         padding: 0 5px;
         
     }
-    .weather {
+    .weather-box {
         grid-column: 1/2;
         grid-row: 2/3;
+    
         
     }
 
-    .weather p {
-        font-size: 1.2rem;
+    .weather-box p {
+        font-size: 1rem;
     }
     .join {
 
@@ -211,4 +212,14 @@ margin: 0 auto;
     text-align:justify;
 }
 
+/***directory page***/
+
+
+ .grid .cards {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 1/3;
 }
+
+}
+

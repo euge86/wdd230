@@ -74,12 +74,14 @@
         width: 95%;
         
     }
-    .weather {
+    .weather-box {
         grid-column: 2/3;
         grid-row: 5/6;
         width: 98%;
+        text-align: center;
+    
     }
-    .weather img {
+    .weather-box img {
         width: 20%;
     }
 
@@ -156,7 +158,20 @@ h2{
     flex-direction: column;
 }
 
+/***directory page***/
+
+.grid .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-column: 1/2;
+
+
 }
+
+  }
+
+
+
 
 
 

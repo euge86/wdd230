@@ -133,13 +133,45 @@ main {
 .hero {
     border:3px solid #000022;
     margin-bottom:5px;
-    padding-bottom: 90px;
     background-color: #005E7C;
+    position: relative;
+
+  }
+  .hero-title{
+    position: absolute;
+    top: 1em;
+    color:#000022;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1rem;
+    background-color: aliceblue;
+    text-align: center;
+    margin: 15px;
+
+  }
+  .call-to-action{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    border: solid #0094C6;
+    padding: 10px;
+    margin:10px;
+    background-color: #001242;
+    box-shadow: 5px 5px 10px #0094C6;
+    display: flex;
+    
+  }
+
+.call-to-action a {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1rem;
+    color:white;
+
 }
 
 .hero img {
+
+    display:block;
     width: 100%;
-    object-fit: contain;
 }
 .news {
     border:3px solid #000022;
@@ -150,15 +182,19 @@ main {
 
 .event {
     border:3px solid #000022;
-    margin-bottom:5px;
-    padding-bottom: 100px;
     background-color: #005E7C;
 }
+.event img {
+    width:52%;
+    position: relative;
+    left:90px;
+}
+
 .weather-box {
     border: 3px solid #000022;
-    margin-bottom:5px;
     background-color: #005E7C;
     text-align: center;
+    font-size: 1.1rem;
 }
 
 .weather-box h1 {
@@ -173,29 +209,56 @@ main {
 
 .join {
     border: 3px solid #000022;
-    margin-bottom:5px;
-    padding-bottom: 100px;
     background-color: #005E7C;
 }
+.join img {
+    width:50%;
+    position: relative;
+    left:20px;
+    margin:10px;
+}
+.join p {
+    background-color: #001242;
+    color: white;
+    text-align: center;
+   
+}
+.join2 img{
+    display:none;
+}
+
+
 .spotlight {
     border:3px solid #000022;
     margin:5px;
     padding-bottom: 90px;
     background-color: #005E7C;
+    text-align: center;
   
 }
 .spot1 {
     border: 2px double #000022;
-    margin: 10px;
-    padding: 100px;
+    
     background-color: #0094C6;
+}
+.spot1 img {
+    width: 30%;
+    margin: 90px;
+    border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 3px  3px 3px 3px #fefefe;
 }
 
 .spot2 {
     border: 2px double #000022;
-    margin: 10px;
-    padding: 100px;
     background-color: #0094C6;
+}
+.spot2 img {
+    width: 30%;
+    margin: 90px;
+    border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 3px  3px 3px 3px #fefefe;
 }
 
 .spot3 {
@@ -239,7 +302,7 @@ footer p {
 /***discover page***/
 
 
-h2 {
+.population h2 {
     margin: 0;
     background-color:#001242;
     color: #fefefe;
@@ -247,22 +310,19 @@ h2 {
     padding: 5px;
     text-align: center;
 }
-.population {
-    border: 1px solid #0094C6;
-}
+
 .population p {
     margin-left: 10px;
 }
 
-.location {
-    border: 1px solid #0094C6;
-}
+
 
 .text  {
     color: black;
     font-size: 20px;
     text-align: center;
     font-family: 'Gentium Book Basic', serif;
+    border:none;
 
 }
 
@@ -275,13 +335,10 @@ h2 {
     margin: 10px 20px;
 }
 
-.urban {
-    border: 1px solid #0094C6;
-}
 
 .urban img {
     width:50%;
-    object-fit: fill;
+    object-fit:cover;
     align-items: center;
     padding: 80px;
     border: solid 2px #0094C6;
@@ -310,6 +367,15 @@ h2 {
     margin: 10px 20px;
     width: 100%;
 }
+
+.local-storage-warning-box{
+    background-color: #0094C6;
+    color: white;
+    border:#001242 solid 2px;
+    text-align: center;
+    
+}
+
 
 
 /***join page***/

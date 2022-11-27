@@ -50,7 +50,7 @@ async function apiFetch(){
 
         windVelocityBox.textContent = windSpeed;
         figcaption.textContent = description;
-        windChill.textContent = `${result} F°`;
+        windChill.textContent = `${result} `;
     }
     
 

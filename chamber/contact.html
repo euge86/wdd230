@@ -14,7 +14,7 @@
     
 </head>
 <body>
-   
+    
     <header>
     
     <img class ="logo" src="images/gc-logo.webp" alt="Godoy Cruz Logo">
@@ -32,24 +32,34 @@
             <li><a href="index.html" class="link">Home</a></li>
             <li><a href="discover.html" class="link">Discover</a></li>
             <li><a href="join.html" class="link">Join</a></li>
-            <li class="active"><a href="directory.html" class="link">Directory</a></li>
-            <li><a href="contact.html" class="link">Contact</a></li>
+            <li><a href="directory.html" class="link">Directory</a></li>
+            <li class="active"><a href="contact.html" class="link">Contact</a></li>
         </ul>
      </nav>
      </header>
      <p><strong><span id="currentDate"></span></strong></p>
      
-<main class="directory">
-    <h1 class="directory-h1">Directory</h1>
-        <div class="menu">
-            <button id="grid">Grid</button>
-            <button id="list">List</button>
-        </div>
+<main>
+    <div class="contact-page">
+    <iframe  class="smallm" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.979514308702!2d-68.84541988496653!3d-32.92513948092753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0bd8833574e9%3A0x7bb2c9bfc37099c4!2sMunicipalidad%20de%20Godoy%20Cruz!5e0!3m2!1ses-419!2sar!4v1669475730718!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     
-        <article class="directory-grid">
-            <div class="cards"></div>
-        </article>
-    
+    <div class="contact-info">
+        <h2> Contact Us!</h2>
+
+        <h3>Email</h3>
+        <p>info@godoycruz.com </p>
+
+        <h3>Phone Number</h3>
+        <p>261 - 4272654 </p>
+
+        <h3>Adrress</h3>
+        <p>Rivadavia 4521 Godoy Cruz Mendoza-Argentina</p>
+
+        <h3>Office Hours</h3>
+        <p> Monday to Friday from 8 am to 5 pm</p>
+
+    </div>
+    </div>
     </main>
     <footer>
         <img class="logofooter" src="images/gc-logo.webp"  alt="logofoot">
@@ -66,13 +76,12 @@
         <div class="footerdown">
             <p id="actualyear"></p>
             <p class="date"><span id="actualdate"></span></p>
+            <p class="source">Source: <a href="https://openweathermap.org/api">Open Weather API</a></p>
         </div>
         
     </footer>
     <script src="scripts/script.js"></script>
-    <script src="scripts/directory.js"></script>
     
-   
 
 </body>
 </html>

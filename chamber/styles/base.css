@@ -175,9 +175,10 @@ main {
 }
 .news {
     border:3px solid #000022;
-    margin-bottom:5px;
-    padding-bottom: 100px;
     background-color: #005E7C;
+}
+.news h2 p {
+    text-align: center;
 }
 
 .event {
@@ -212,9 +213,8 @@ main {
     background-color: #005E7C;
 }
 .join img {
-    width:50%;
-    position: relative;
-    left:20px;
+    width:340px;
+    height: auto;
     margin:10px;
 }
 .join p {
@@ -223,11 +223,6 @@ main {
     text-align: center;
    
 }
-.join2 img{
-    display:none;
-}
-
-
 .spotlight {
     border:3px solid #000022;
     margin:5px;
@@ -287,6 +282,11 @@ footer p {
     font-size: 1rem;
 
 }
+
+.location{
+    
+    color:white;
+}
 .footerdown {
     border-top: 2px solid #0094C6;
     margin: 10px;
@@ -301,7 +301,9 @@ footer p {
 
 /***discover page***/
 
-
+.content-discover{
+    display: block;
+}
 .population h2 {
     margin: 0;
     background-color:#001242;
@@ -315,8 +317,6 @@ footer p {
     margin-left: 10px;
 }
 
-
-
 .text  {
     color: black;
     font-size: 20px;
@@ -327,29 +327,23 @@ footer p {
 }
 
 .location img {
-    width:50%;
-    object-fit: fill;
-    align-items: center;
-    padding: 80px;
+    display: block;
+    width:300px;
+    height: 400px;
     border: solid 2px #0094C6;
     margin: 10px 20px;
+    
 }
 
 
 .urban img {
-    width:50%;
-    object-fit:cover;
-    align-items: center;
-    padding: 80px;
+    width:300px;
+    height:200px;
     border: solid 2px #0094C6;
     margin: 10px 20px;
+   
 }
-.text1 {
-    background-color: #0094C6;
-    text-align: center;
-    font-size: 1rem;
-    border: solid 2px #001242;
-}
+
 .img_gallery {
     border: 1px solid #0094C6;
 }
@@ -360,11 +354,10 @@ footer p {
     margin: 0;
 }
 .img_content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display:block;
 }
 .img_content img {
-    margin: 10px 20px;
+    
     width: 100%;
 }
 
@@ -563,6 +556,32 @@ img  {
 .list img {
     display: none;
 }
+
+/*** contact page ***/
+
+.smallm {
+    margin: 20px;
+    width: 90%;
+    box-shadow: 5px 5px 5px 0 #0094C6;
+}
+.contact-info{
+    margin:15px;
+}
+
+.contact-info h2{
+
+    background-color: #001242;
+    padding: 10px;
+    text-align: center;
+   
+}
+
+.contact-info p {
+    color: #000022;
+    padding: 10px;
+    
+}
+
 
 
 

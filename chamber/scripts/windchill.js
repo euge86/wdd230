@@ -28,7 +28,7 @@ async function apiFetch(){
     function displayResults(weatherdata){
 
         currentTemp.innerHTML = ``;
-        currentTemp.innerHTML = `<strong>${weatherdata.main.temp.toFixed(0)}</strong>`;
+        currentTemp.innerHTML = `<strong>${weatherdata.main.temp.toFixed(0)} °F </strong>`;
         
         const windSpeed = parseFloat(weatherdata.wind.speed);
         const currentTemperatureF = parseFloat(weatherdata.main.temp);
@@ -36,7 +36,7 @@ async function apiFetch(){
         
         let windChillFactor= calculateWindChill(windSpeed, currentTemperatureF)
         let result = null;
-        // conditional for the result
+        
         if (currentTemperatureF <= 50 && windSpeed > 3){
             result = windChillFactor.toFixed(2);
         }else{
@@ -50,7 +50,7 @@ async function apiFetch(){
 
         windVelocityBox.textContent = windSpeed;
         figcaption.textContent = description;
-        windChill.textContent = `${result} `;
+        windChill.textContent = `${result}`;
     }
     
 

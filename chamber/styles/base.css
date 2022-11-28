@@ -126,6 +126,7 @@ main {
     color:white;
     font-family: 'Manrope', sans-serif;
     font-size: 1.5rem;
+    background-color: white;
    
     
 }
@@ -133,11 +134,11 @@ main {
 .hero {
     border:3px solid #000022;
     margin-bottom:5px;
-    background-color: #005E7C;
     position: relative;
 
-  }
-  .hero-title{
+}
+
+.hero-title{
     position: absolute;
     top: 1em;
     color:#000022;
@@ -147,7 +148,7 @@ main {
     text-align: center;
     margin: 15px;
 
-  }
+}
   .call-to-action{
     position: absolute;
     bottom: 10px;
@@ -177,22 +178,33 @@ main {
     border:3px solid #000022;
     background-color: #005E7C;
 }
-.news h2 p {
+.news h2  {
     text-align: center;
+    font-size: 1.5rem;
+    margin:10px;
+    text-align: center;
+    
+}
+.news p {
+    font-size: 1rem;
+    font-family: 'Gentium Book Basic', serif;
 }
 
-.event {
+.event{
     border:3px solid #000022;
     background-color: #005E7C;
 }
 .event img {
-    width:52%;
+    width:150px;
+    height: 150px;
     position: relative;
     left:90px;
+    border:3px solid #000022;
+    background-color: #005E7C;
 }
 
 .weather-box {
-    border: 3px solid #000022;
+    border:3px solid #000022;
     background-color: #005E7C;
     text-align: center;
     font-size: 1.1rem;
@@ -209,7 +221,7 @@ main {
 }
 
 .join {
-    border: 3px solid #000022;
+    border:3px solid #000022;
     background-color: #005E7C;
 }
 .join img {
@@ -227,15 +239,13 @@ main {
     border:3px solid #000022;
     margin:5px;
     padding-bottom: 90px;
-    background-color: #005E7C;
     text-align: center;
+    color:#000022;
+    border:3px solid #000022;
+    background-color: #005E7C;
   
 }
-.spot1 {
-    border: 2px double #000022;
-    
-    background-color: #0094C6;
-}
+
 .spot1 img {
     width: 30%;
     margin: 90px;
@@ -243,13 +253,16 @@ main {
     border-radius: 5px;
     box-shadow: 3px  3px 3px 3px #fefefe;
 }
-
+.spot1 {
+    border:3px solid #000022;
+    background-color: #0094C6;
+}
 .spot2 {
-    border: 2px double #000022;
+    border:3px solid #000022;
     background-color: #0094C6;
 }
 .spot2 img {
-    width: 30%;
+    width: 100px;
     margin: 90px;
     border-radius: 5px;
     border-radius: 5px;

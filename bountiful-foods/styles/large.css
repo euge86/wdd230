@@ -1,0 +1,98 @@
+@media only screen and (min-width: 64rem) {
+
+    header h1 {
+        font-size: 4rem;
+        margin:10px;
+        padding-bottom: 25px;
+    }
+  
+    nav button{
+        display: none;
+    }
+    nav ul {
+        display: block;
+    }
+
+    main {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        
+    }
+    
+
+    .content {
+        grid-column: 1/2;
+        grid-row: 1/3;
+        color: white;
+    }
+    
+    section  {
+        grid-column: 1/4;
+        grid-row: 3/4;
+        
+    }
+    
+    .photos {
+        background-color: white;
+        display: flex;
+        border: none;
+    }
+    
+    .floor {
+        display:flex;
+    }
+    .weather {
+        grid-column: 3/4;
+        grid-row: 1/3;
+    }
+    .condition p {
+       background-color: #A14EBF;
+    }
+    #weather-icon {
+        width: 200px;
+    }
+    .weather-icon {
+        width: 100px;
+    }
+    .special {
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+    .special h2 {
+        text-align: center;
+    }
+    .special h2 a {
+        background-color: #6C91BF;
+    }
+    
+    .footer {
+        display:flex;
+    
+    }
+    
+    
+    .footerdown {
+    display: flex;
+  }
+
+  /**Fresh Page**/
+  select.chose{
+    width: 70%;
+    
+  }
+    
+
+  /**About Us**/
+
+
+iframe {
+    width:600px;
+    height: 400px;
+    
+}
+
+
+
+}
+

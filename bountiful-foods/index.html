@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="cherry-favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <meta name="description" content="Home Page about Bountiful Foods">
+    <title>Bountiful Foods </title>
+</head>
+<body>
+    <header>
+    
+        <div class="social">
+                <a href="htpps://facebook.com"><img src="images/facebook_icon.png" alt="Facebook"></a>
+                <a href="htpps://linkedin.com"><img src="images/instagram_icon.png" alt="Instagram"></a>
+                <a href="htpps://twitter.com"><img src="images/twitter_icon.png" alt="Twitter"></a>
+        </div>
+
+        <a href="index.html"><img class ="logo" src="images/fruits.webp" alt="Fruit Logo"> </a>
+        
+        <h1>Bountiful Foods</h1>
+
+        <nav> 
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="navigation">
+                <li class="active"><a href="index.html" class="link">Home Page</a></li>
+                <li><a href="fresh.html" class="link">Fresh Page</a></li>
+                <li><a href="about-us.html" class="link">About Us</a></li>
+            </ul>
+         </nav>
+         </header>
+    <main>
+        <div class="content">
+        <h1>San Diego California</h1>
+
+        <p>One of the main food trucks that Bountifull Foods owns is located in San Diego California.
+            San Diego is a city on the Pacific coast of California, famous for its beaches, 
+            its parks, and its warm climate. In the immense Balboa Park, is the famous San Diego Zoo, 
+            as well as several art galleries, artists' studios, museums and gardens. A deep harbor is home to a large active naval fleet, 
+            with the USS Midway, an aircraft carrier turned museum open to the public.
+        </p>
+        </div>
+        
+        <section class="photos">
+
+       
+       <picture>
+        <img class="floor" src="https://via.placeholder.com/300x400.png?text=placeholder" data-src='images/floor-sandiego.webp' alt='San Diego Floors'>
+       </picture>
+
+       <picture>
+        <img class="beach" src="https://via.placeholder.com/300x400.png?text=placeholder" data-src='images/beach-sandiego.webp' alt='San Diego Beach'>
+       </picture>
+
+       <picture>
+        <img class="juices" src="https://via.placeholder.com/300x400.png?text=placeholder" data-src='images/juices-sandiego.webp' alt='Smoothies'>
+        </picture>
+
+    </section>
+
+    <div class="weather">
+        <h2>Weather</h2>
+        <figure>
+            <img src="" alt="" id="weather-icon" />
+          </figure>
+    <div class="condition">
+    <p>Currently: <span id="cur"></span></p>
+    <p>Temperature: <span id="temp"></span>°F</p>
+    <p>Humidity: <span id="hum"></span>%</p>
+</div>
+    <h2>Forecast</h2>
+<div class="forecast">
+    <section class="days">
+      <div class="forecast-day"></div>
+      <div class="forecast-icon"><img src="#" alt="" class="weather-icon"></div>
+        <div class="forecast-max"></div>
+    </section>
+
+    <section class="days">
+      <div class="forecast-day"></div>
+      <div class="forecast-icon"><img src="#" alt="" class="weather-icon"></div>
+      <div class="forecast-max"></div>
+    </section>
+
+    <section class="days">
+      <div class="forecast-day"></div>
+      <div class="forecast-icon"><img src="#" alt="" class="weather-icon"></div>
+        <div class="forecast-max"></div>
+    </section>
+    </div>
+</div>
+<div class="special">
+    <h2>Make Your Favorite Smoothies</h2>
+    <h2><a href="fresh.html" class="button">Fresh Juice Here</a></h2>
+</div>
+</main>
+    <footer>
+        <img class="logofooter" src="images/fruits.webp"  alt="logofoot">
+
+        <div class="info">
+            <p class="footertitle">Bountiful Foods</p>
+            <p class="address">San Diego California</p>
+        </div>
+        <div class="contact">
+            <p class="direction">Find Us!: <a class="location" href="https://goo.gl/maps/6RnNH5c56CsocXNF6">Location 📍 </a></p>
+        </div>
+        <div class="footerdown">
+            <p id="actualyear"></p>
+            <p class="date"><span id="actualdate"></span></p>
+        </div>
+        <li><a href="resources.html" class="link">Resource/Attribution page</a></li> 
+    </footer>
+    <script src="script/script.js"></script>
+    <script src="script/lazyload.js"></script>
+    <script src="script/weather.js"></script>
+</body>
+</html>

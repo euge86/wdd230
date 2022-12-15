@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="cherry-favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <meta name="description" content="Home Page about Bountiful Foods">
+    <title>Bountiful Foods </title>
+</head>
+<body>
+    <header>
+    
+        <div class="social">
+                <a href="htpps://facebook.com"><img src="images/facebook_icon.png" alt="Facebook"></a>
+                <a href="htpps://linkedin.com"><img src="images/instagram_icon.png" alt="Instagram"></a>
+                <a href="htpps://twitter.com"><img src="images/twitter_icon.png" alt="Twitter"></a>
+        </div>
+
+        <a href="index.html"><img class ="logo" src="images/fruits.webp" alt="Fruit Logo"> </a>
+        
+        <h1>Bountiful Foods</h1>
+
+        <nav> 
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="navigation">
+                <li><a href="index.html" class="link">Home Page</a></li>
+                <li class="active"><a href="fresh.html" class="link">Fresh Page</a></li>
+                <li><a href="about-us.html" class="link">About Us</a></li>
+            </ul>
+         </nav>
+         </header>
+    <main>
+        <section id="fresh-form">
+            <h2 class="drinks">Make your Drink!</h2>
+            <form id="juice-form" method="get" onsubmit="return false;">
+                <fieldset id="form">
+                    <legend>Your Information</legend>
+                    <label class="top" for="fname">First Name*:<input type="text" id="fname" name="fname" placeholder="Your Name" required> </label>
+                    <label class="top" for="lname">Last Name:<input type="text" id="lname" name="lname" placeholder="Your Lastname"> </label>
+                    <label class="top" for="email">Email*:<input type="email" id="email" name="email" placeholder="yourname@gmail.com" required> </label>
+                    <label class="top"for="tel">Phone*:<input type="tel" id="tel" name="tel" placeholder="1235551234" required pattern="[0-9]{10,10}">
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Choose your fruit*</legend>
+                    
+                    <select class="chose" name="fruit1" id="fruit1" required><option value="" selected>Choose a fruit</option>
+                    </select>
+                    <select class="chose" name="fruit2" id="fruit2"><option value="" selected>Choose a fruit</option>
+                    </select>
+                    <select class="chose" name="fruit3" id="fruit3"><option value="" selected>Choose a fruit</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Instructions</legend>
+                    <label> <textarea name="some-instructions" cols="30" rows="10"></textarea></label>
+                </fieldset>
+                <input type="hidden" name="load-date-time" id="load-date-time" value="">
+                <input id="submitbtn" type="submit" value="Make Your Smoothie!">
+                
+            </form>
+        </section>
+        <section id="response" class="hidden"></section>
+
+    </main>
+    <footer>
+        <img class="logofooter" src="images/fruits.webp"  alt="logofoot">
+
+        <div class="info">
+            <p class="footertitle">Bountiful Foods</p>
+            <p class="address">San Diego California</p>
+        </div>
+        <div class="contact">
+            <p class="direction">Find Us!: <a class="location" href="https://goo.gl/maps/6RnNH5c56CsocXNF6">Location 📍 </a></p>
+        </div>
+        <div class="footerdown">
+            <p id="actualyear"></p>
+            <p class="date"><span id="actualdate"></span></p>
+        </div>
+        <li><a href="resources.html" class="link">Resource/Attribution page</a></li>  
+    </footer>
+    <script src="script/script.js"></script>
+    <script src="script/fresh.js"></script>
+</body>
+</html>
